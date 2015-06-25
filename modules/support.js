@@ -111,9 +111,9 @@ Support.prototype.replyTicket = function (ticketid, message, opts, callback) {
     options = extend(options, opts);
   }
 
-  if(!options.adminusername){
+  /*if(!options.adminusername){
     options.adminusername = 'Auto-response';
-  }
+  }*/
 
   var createOptions = {
     client: this,
